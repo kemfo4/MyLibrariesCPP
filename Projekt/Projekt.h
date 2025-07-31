@@ -6,5 +6,6 @@
 #include <iostream>
 #include "Libraries/Arrays.h"
 #include "Libraries/Values.h"
+#include "Libraries/String/String.h"
 
 // TODO: W tym miejscu przywołaj dodatkowe nagłówki wymagane przez program.

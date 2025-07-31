@@ -1,9 +1,11 @@
-#ifndef ARRAYS_H
-#define ARRAYS_H
+#pragma once
+
 #include "Values.h"
 
 
+#ifdef _IOSTREAM_
 #include <iostream>
+#endif
 #include <cstdlib>
 
 
@@ -61,5 +63,3 @@ public:
 	}
 
 };
-
-#endif
