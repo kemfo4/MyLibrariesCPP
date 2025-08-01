@@ -284,7 +284,7 @@
 // Code from exclusive appropriation.
 
 // All other changes or additions to this Appendix require the production of a new
-// EUPL version.
+// EUPL version.0
 
 #pragma once
 
