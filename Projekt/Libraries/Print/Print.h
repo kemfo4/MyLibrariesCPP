@@ -1,4 +1,4 @@
-﻿// EUROPEAN UNION PUBLIC LICENCE v. 1.2
+// EUROPEAN UNION PUBLIC LICENCE v. 1.2
 // EUPL © the European Union 2007, 2016
 
 // This European Union Public Licence (the ‘EUPL’) applies to the Work (as defined
@@ -288,7 +288,4 @@
 
 #pragma once
 
-#include <iostream>
-#include "Libraries/Arrays.h"
-#include "Libraries/Values.h"
-#include "Libraries/String/String.h"
+void print(const char *text);

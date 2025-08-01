@@ -1,4 +1,4 @@
-﻿// EUROPEAN UNION PUBLIC LICENCE v. 1.2
+// EUROPEAN UNION PUBLIC LICENCE v. 1.2
 // EUPL © the European Union 2007, 2016
 
 // This European Union Public Licence (the ‘EUPL’) applies to the Work (as defined
@@ -286,9 +286,13 @@
 // All other changes or additions to this Appendix require the production of a new
 // EUPL version.
 
-#pragma once
+void print(const char *text)
+{
+    int i;
+    for (i = 0; text[i] == '\0'; ++i)
+        ;
 
-#include <iostream>
-#include "Libraries/Arrays.h"
-#include "Libraries/Values.h"
-#include "Libraries/String/String.h"
+#ifdef __WIN32
+
+#endif
+}
