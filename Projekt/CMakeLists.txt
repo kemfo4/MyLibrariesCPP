@@ -3,7 +3,7 @@
 #
 
 # Dodaj źródło do pliku wykonywalnego tego projektu.
-add_executable (Projekt "Projekt.cpp" "Projekt.h" "Libraries/Arrays.h" "Libraries/Values.h" "Libraries/String/String.h" "Libraries/String/String.cpp")
+add_executable (Projekt "Projekt.cpp" "Projekt.h" "Libraries/Arrays.h" "Libraries/Values/Values.h" "Libraries/Values/Values.cpp" "Libraries/String/String.h" "Libraries/String/String.cpp")
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Projekt PROPERTY CXX_STANDARD 20)
 endif()

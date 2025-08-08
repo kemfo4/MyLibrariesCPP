@@ -14,6 +14,8 @@
 
 // or has expressed by any other means his willingness to license under the EUPL.
 
+#include <stdio.h>
+
 void print(const char *text)
 {
     int i;

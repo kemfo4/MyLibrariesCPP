@@ -14,6 +14,12 @@
 
 // or has expressed by any other means his willingness to license under the EUPL.
 
-#pragma once
+#include "Values.h"
 
-void print(const char *text);
+int Values::getLength(const char *text)
+{
+    int i;
+    for (i = 0; text[i] != '\0'; i++)
+        ;
+    return i;
+}
